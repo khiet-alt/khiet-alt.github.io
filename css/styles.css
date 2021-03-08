@@ -1,0 +1,78 @@
+#override-bootstrap{
+    color: #fff;
+    background-color: burlywood;
+    font-size: 16px;
+}
+/* Navigation bar */
+.MyNavBar{
+    background-color: antiquewhite;
+}
+.navbar > .container-fluid{
+    padding: 0;
+}
+#navbar-expand-lg{
+    width: 100%;
+    background-color: darkgray;
+}
+.nav-header{
+    padding: 23px;
+    width: 50%;
+}
+.nav-header .navbar-expand-lg{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding: 20px;
+}
+.navbar.MyNavbar > .container-fluid{
+    width: 100%;
+    height: 8vh;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.MyNavbar .mycontainer:nth-child(2){
+    background-color: darkgray;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container-fluid > button:focus{
+    box-shadow: none;
+}
+.nav-header > a{
+    color: blueviolet;
+    font-weight: bold;
+}
+li a{
+    color: saddlebrown;
+}
+#nav-list li{
+    text-align: center;
+    border: 1px solid hotpink;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px yellow;
+}
+@media (min-width: 992px){
+    #navbar-expand-lg{
+        width: 0;
+        height: 0;
+    }
+}
+/* ############## */
+
+#heading{
+    color: black;
+    text-shadow: 1px 1px grey;
+    font-weight: 700;
+}
+.content{
+    padding: 10px;
+}
+.content .row{
+    justify-content: center;
+}
+p , h3, span{
+    color: black;
+}
+.row > div{
+    margin-bottom: 10px;
+}
