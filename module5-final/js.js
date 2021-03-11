@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", (event) =>{
         document
             .getElementById("content")
             .innerHTML = "<h2>Hello " + input + "</h2"; 
+        
+        document
+            .getElementById("content")
+            .insertAdjacentHTML('beforeend', "<p>testting</p>");
     }
     document
         .querySelector("button")
