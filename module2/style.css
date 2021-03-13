@@ -1,0 +1,72 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.chung {
+    background-color: grey;
+    border: black 2px solid;
+}
+
+.sec1{
+    color: black;
+    background-color: pink;
+    float: right;
+}
+.sec2{
+    color: white;
+    background-color: red;
+    float: right;
+}
+.sec3{
+    color: black;
+    background-color: yellow;
+    float: right;
+}
+section {
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.divv{
+    position: absolute;
+}
+
+@media (min-width: 992px) {
+    .chung{
+        width: 30%;
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .chung{
+        width: 45%;
+        float: left;
+        margin-left: 30px;
+    }
+    .third{
+        clear: left;
+        margin-top: 30px;
+        width: 93.1%;
+    }
+}
+@media (max-width: 767px) {
+    .chung{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
