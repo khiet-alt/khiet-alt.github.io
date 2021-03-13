@@ -1,0 +1,281 @@
+#override-bootstrap {
+    background-color: maroon;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+.MyNavBar{
+    background-color: beige;
+}
+.nav-header{
+    width: 50%;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo-img{
+    background: url("../picture/logo-res.jpg") no-repeat;
+    width: 150px;
+    height: 105px;
+    margin: 10px 15px 10px 0;
+    opacity: 0.1;
+    background-size: cover;
+    background-position: bottom;
+}
+#restaurant{
+    position: absolute;
+    left: 22%;
+    top: 45px;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+.navbar-brand a h1 {
+    font-family: 'Lora', serif;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px orange;
+    line-height: 0.75;
+}
+.navbar-brand a:hover , navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p {
+    text-transform: uppercase;
+    color: firebrick;
+    font-size: .7em;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.icon-menu{
+    border-radius: 50%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.container-fluid > button:focus{
+    box-shadow: none;
+}
+
+#nav-list{
+    margin-top: 8px;
+}
+#nav-list li{
+    margin-right: 20px;
+    text-align: center;
+}
+#nav-list a{
+    color: #951C49;
+    text-decoration: none;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div{
+    color:darkgoldenrod;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.container-fluid > .navbar-expand-lg{
+    width: 35%;
+}
+.nav-header .navbar-expand-lg{
+    position: absolute;
+    right: 0px;
+}
+
+/* Responsive */
+@media (min-width: 1200px){
+
+}
+@media (min-width: 993px) and (max-width: 1199){
+
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    #navbar-expand-lg{
+        width: 100% !important;
+    } 
+}
+
+@media (max-width: 767px){
+    #navbar-expand-lg{
+        width: 100%;
+    }
+    .hidden-xs{
+        display: none;
+    }
+
+    /* FOOTER */
+    .panel-footer section{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3){
+        margin-bottom: 0;
+    }
+    .panel-footer section hr{
+        width: 50%;
+    }
+    .visible-xs{
+        margin: 0 auto;
+    }
+    .menu-item-photo{
+        margin-right: auto !important;
+    }
+    .menu-item-tile .menu-item-price{
+        text-align: center !important;
+    }
+    .menu-item-description{
+        text-align: center;
+    }
+}
+/* Responsive */
+
+.img-responsive{
+    width: 100%;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+/* HOME PAGE */
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    border: 3px solid brown;
+    overflow: hidden;
+}
+.category-tile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid sandybrown;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+.category-tile span{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+}
+#menu-categories-title:hover{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    background: url("../picture/dishes1.jpg");
+    background-position: center;
+}
+#specials-tile{
+    background: url("../picture/dishes2.jpg");
+    background-position: center;
+}
+#home-tiles span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: bisque;
+    text-transform: uppercase;
+    color: brown;
+    opacity: 0.5;
+    font-weight: bold;
+    font-family: cursive;
+}
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer{
+    background-color: #222;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span, #address > span{
+    font-size: 1.3em;
+}
+#address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials{
+    font-size: italic !important;
+}
+#testimonials p:nth-child(2){
+    margin-top: 10px;
+}
+
+/* single-category.html */
+.menu-item-photo img{
+    height: 15vh;
+}
+.menu-item-tile{
+    margin-bottom: 25px;
+}
+.menu-item-tile hr{
+    width: 80%;
+}
+.menu-item-tile .menu-item-price{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span{
+    font-size: .6em;
+}
+.menu-item-photo{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description{
+    padding-right: 30px;
+}
+h3.menu-item-title{
+    margin: 0 0 10px;
+}
+.menu-item-details{
+    font-size: .9em;
+    font-size: italic;
+}
